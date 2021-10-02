@@ -1,5 +1,6 @@
-JSX is the HTML-like syntax we've seen inside these examples and is core to building components in Solid. 
-JSX adds dynamic expressions that allow you to reference variables and functions within your HTML by using the `{ } ` syntax.
+JSX is the HTML-like syntax we've seen inside these examples and is core to building components in Solid.
+Solid components return a _template_: an HTML element written in JSX.
+JSX adds dynamic expressions that allow you to reference variables and functions within your templates by using the `{ } ` syntax.
 In this example, we include the string `name` in our HTML using `{name}` inside a div. In the same way, we include an HTML element that was directly assigned to the `svg` variable.
 
 Unlike some other frameworks that use JSX, Solid attempts to stay as close to HTML standards as possible, allowing simple copy and paste from answers on Stack Overflow or from template builders from your designers.
